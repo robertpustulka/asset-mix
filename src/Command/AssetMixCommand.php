@@ -10,6 +10,7 @@ use Cake\Console\Arguments;
 use Cake\Console\ConsoleIo;
 use Cake\Console\ConsoleOptionParser;
 use Exception;
+use function Cake\I18n\__;
 
 class AssetMixCommand extends Command
 {
@@ -66,7 +67,7 @@ class AssetMixCommand extends Command
     /**
      * @inheritDoc
      */
-    public function execute(Arguments $args, ConsoleIo $io)
+    public function execute(Arguments $args, ConsoleIo $io): ?int
     {
         $this->preset = $args->getArgument('preset');
 
