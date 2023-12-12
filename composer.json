@@ -19,11 +19,11 @@
     "require": {
         "ext-json": "*",
         "ext-mbstring": "*",
-        "cakephp/cakephp": "^4.3.0"
+        "cakephp/cakephp": "^5.0"
     },
     "require-dev": {
         "cakephp/cakephp-codesniffer": "^4.2.0",
-        "phpunit/phpunit": "^8.0",
+        "phpunit/phpunit": "^10.0",
         "phpstan/phpstan": "^0.12.32"
     },
     "autoload": {
